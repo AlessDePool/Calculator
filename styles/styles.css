@@ -1,0 +1,93 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: #c9e5e6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 670px;
+    align-items:center;
+    position: relative;
+    top: 20px;
+}
+
+.outline {
+    overflow: hidden;
+    position: relative;
+    bottom: 20px;
+    height: 471px;
+    width: 331px;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    background-color: #394555;
+    -webkit-box-shadow: 0 0 16px rgb(70, 70, 70);
+        box-shadow: 0 0 16px rgb(70, 70, 70);
+}
+
+.screen {
+    height: 160px;
+    width: 348px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: x-large;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+.displayNumbers {
+    position: absolute;
+    bottom: 332px;
+    right: 7px;
+    color: white;
+}
+
+.buttonContainer {
+    width: 327px;
+    height: 370px;
+    position: relative;
+    left: 2px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 2px;
+}
+
+.equal {
+    grid-column: 3 / 5;
+}
+
+button {
+    font-size: 22px;
+    border: transparent;
+    border-radius: 10px;
+
+}
+
+.previousNumber {
+    position: relative;
+    font-size: 25px;
+    bottom: 30px;
+    right: 29px;
+    color: white;
+}
+
+.check{
+    display: flex;
+}
+
+button {
+    background-color: #374353;
+    color: white;
+}
+
+button:focus {
+outline: white solid 0px; 
+background-color: #00000060
+}
